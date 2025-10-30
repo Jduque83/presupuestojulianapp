@@ -1,20 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="UTF-8">
-    <title>App Finanzas</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conexión Exitosa 🎉</title>
   </head>
-  <body>
-    <h1>Prueba conexión con Google Sheets</h1>
-    <button id="btn">Probar conexión</button>
-    <pre id="output"></pre>
-
-    <script>
-      document.getElementById("btn").addEventListener("click", async () => {
-        const res = await fetch("/.netlify/functions/test");
-        const data = await res.json();
-        document.getElementById("output").textContent = JSON.stringify(data, null, 2);
-      });
-    </script>
+  <body style="font-family: sans-serif; text-align:center; padding-top:50px;">
+    <h1>✅ ¡Conexión con Netlify funcionando!</h1>
+    <p>Este sitio está desplegado desde GitHub automáticamente.</p>
   </body>
 </html>
+
+
