@@ -1,0 +1,17 @@
+[build]
+  publish = "PresupuestoWeb"
+  functions = "netlify/functions"
+
+[build.environment]
+  NETLIFY_BUILD_IMAGE = "jammy"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+
+
+
+
+
