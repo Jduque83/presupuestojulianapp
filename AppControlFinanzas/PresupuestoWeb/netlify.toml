@@ -1,7 +1,6 @@
 [build]
-  base = "PresupuestoWeb"
-  publish = "PresupuestoWeb"
-  functions = "PresupuestoWeb/netlify/functions"
+  publish = "AppControlFinanzas/PresupuestoWeb"
+  functions = "AppControlFinanzas/netlify/functions"
 
 [build.environment]
   NETLIFY_BUILD_IMAGE = "jammy"
@@ -10,6 +9,7 @@
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
+
 
 
 
