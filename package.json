@@ -1,0 +1,10 @@
+{
+  "name": "app-control-finanzas",
+  "version": "1.0.0",
+  "description": "Conexión con Google Sheets desde Netlify Functions",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^140.0.0"
+  }
+}
